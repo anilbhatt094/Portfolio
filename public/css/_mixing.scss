@@ -1,0 +1,46 @@
+@mixin breakpoint($point) {
+	// XS Screen
+	@if $point == XScreen {
+		@media only screen and (max-width: 375px) {
+			@content;
+		}
+	}
+
+	
+	// XS Screen
+	@if $point == SScreen {
+		@media only screen and (max-width: 576px) {
+			@content;
+		}
+	}
+
+	// M Screen
+	@if $point == MScreen {
+		@media only screen and (max-width: 768px) {
+			@content;
+		}
+	}
+
+	// L Screen
+	@if $point == LScreen {
+		@media only screen and (max-width: 992px) {
+			@content;
+		}
+	}
+
+	// XL Screen
+	@if $point == XLScreen {
+		@media only screen and (max-width: 1200px) {
+			@content;
+		}
+	}
+
+	// XLL Screen
+	@if $point == XLLScreen {
+		@media only screen and (max-width: 1400) {
+			@content;
+		}
+	}
+
+	
+}
