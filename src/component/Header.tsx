@@ -5,9 +5,8 @@ function Header() {
     <header className='bg-default-color'>
         <div className='container'>
             <div className='HeaderFlex dFlex justifyContentBetween alignItemCenter'>
-                <div className='Logo'>
-                    <h1>Anil Bhatt</h1>
-                    <p>Frontend Developer</p>
+                <div className='logo'>
+                    <img src="img/logo.png"/>
                 </div>
                 <div className='headerinfo'>
                     <ul>

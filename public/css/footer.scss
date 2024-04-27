@@ -1,0 +1,24 @@
+@import "./mixing";
+@import "./specific";
+
+footer{
+    .footerflex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint(MScreen){
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .footerSocialMedia{
+            ul{
+                list-style: none;
+                display: flex;
+                gap: 10px;
+               
+              
+            }
+        }
+    }
+}

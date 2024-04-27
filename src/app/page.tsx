@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 function page() {
   return (
     <>
+
   <Header/>
     <Home/>
   <Footer/>
