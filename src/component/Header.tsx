@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 import "../../public/css/header.css";
 function Header() {
   return (
