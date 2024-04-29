@@ -47,7 +47,7 @@ function Home() {
       <div className='container'>
         <div className='bannerFlex'>
         <div className='bannerContent'>
-            <h1>Hi <span className='wavingHand'>🖐</span> I'm Anil Bhatt</h1>
+            <h1>Hi <span className='wavingHand'>🖐</span> I am Anil Bhatt</h1>
             <h2>Frontend <br/> Developer</h2>
             <p>I design, code, and build superficial things, and I love what I do.</p>
           </div>
