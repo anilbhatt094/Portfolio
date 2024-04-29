@@ -7,7 +7,7 @@ function Header() {
         <div className='container'>
             <div className='HeaderFlex dFlex justifyContentBetween alignItemCenter'>
                 <div className='logo'>
-					<Image src="img/logo.png" alt="AB Coder"/>
+					<Image src="/img/logo.png" alt="AB Coder" width={100} height={50}/>
                 </div>
                 <div className='headerinfo'>
                     <ul>

@@ -52,7 +52,7 @@ function Home() {
             <p>I design, code, and build superficial things, and I love what I do.</p>
           </div>
           <div className='bannerImg textCenter'>
-			<Image src="img/banner.png" alt="AB Coder Banner"/>
+			<Image src="/img/banner.png" width={500} height={350}  alt="AB Coder Banner"/>
           </div>
           
         </div>
@@ -215,54 +215,54 @@ function Home() {
 		<div className='liveprojectsec'>
 			<div className='liveProjectbox'>
 				<a href="https://www.myholidays.com/" target='_blank'>
-					<Image src="https://c.myholidays.com/cms/images/theme/myholiday_logo.svg" alt="My Holidays"/>
+					<Image src="https://c.myholidays.com/cms/images/theme/myholiday_logo.svg" width={100} height={50} alt="My Holidays"/>
 				<p>Company Project <span>Affixious.com</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
 				<a href="https://www.regencyholidays.com/" target='_blank'>
-				<Image src="https://c.regencyholidays.com/cms/images/theme/regencyholiday_logo.svg" alt="Regency Holidays"/>
+				<Image src="https://c.regencyholidays.com/cms/images/theme/regencyholiday_logo.svg" width={100} height={50} alt="Regency Holidays"/> 
 				<p>Company Project <span>Affixious.com</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
 				<a href="https://www.pepfuels.com/" target='_blank'>
-				<Image src="https://www.pepfuels.com/img/logo.png" alt="Pepfuels"/>
+				<Image src="/img/project/logo.png" width={100} height={50} alt="Pepfuels"/>
 				<p>Company Project <span>Pepfuels.com</span></p>
 				</a>
 			</div>
 			<div className='liveProjectbox'>
 				<a href="https://pannasarees.com/" target='_blank'>
-				<Image src="https://pannasarees.com/cdn/shop/files/pannagiflogo.gif?v=1643112741&width=300" alt="Panna Sarees"/>
+				<Image src="/img/project/pannagiflogo.webp" width={100} height={50} alt="Panna Sarees"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 			<div className='liveProjectbox'>
 				<a href="https://mamicha.in/" target='_blank'>
-				<Image src="https://mamicha.in/cdn/shop/files/green_logo-03_1_1.png?v=1709391495&width=400" alt="Mamicha"/>
+				<Image src="/img/project/mamicha.avif" width={100} height={50} alt="Mamicha"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
 				<a href="https://uboardindia.com/" target='_blank'>
-				<Image src="https://uboardindia.com/assets/logo/logo.png" alt="Uboard India"/>
+				<Image src="/img/project/uboard.png" width={100} height={50} alt="Uboard India"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
 				<a href="https://www.vanson.in/" target='_blank'>
-				<Image src="https://www.vanson.in/cdn/shop/files/WhatsApp_Image_2024-02-18_at_1.23.17_PM.jpg?v=1708342329" alt="Vansons"/>
+				<Image src="/img/project/vansons.webp" width={100} height={50} alt="Vansons"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
 				<a href="https://www.hikerstore.in/" target='_blank'>
-				<Image src="https://www.hikerstore.in/cdn/shop/files/Final2.png?v=1670699142&width=280" alt="Hiker Store"/>
+				<Image src="/img/project/hikerstore.avif" width={100} height={50} alt="Hiker Store"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
@@ -276,71 +276,71 @@ function Home() {
 		<h3 className="primaryheading textCenter mb-15">Skills</h3>
 		<Slider {...settings} className='skillsSlider'>
       <div className='slideritem'>
-	 <Image src="img/icon/adobexd.png" alt="Adobe Xd"/>
+	 <Image src="/img/icon/adobexd.png" alt="Adobe Xd" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/angular.png" alt="Angular"/>
+	  <Image src="/img/icon/angular.png" alt="Angular" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/bootstrap.png" alt="Bootstrap"/>
+	  <Image src="/img/icon/bootstrap.png" alt="Bootstrap" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/canva.png" alt="Canva"/>
+	  <Image src="/img/icon/canva.png" alt="Canva" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/css.png" alt="Css"/>
+	  <Image src="/img/icon/css.png" alt="Css" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/figma.png" alt="Figma"/>
+	  <Image src="/img/icon/figma.png" alt="Figma" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/html.png" alt="HTML"/>
+	  <Image src="/img/icon/html.png" alt="HTML" width={100} height={50}/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/javascript.png" alt="javascript"/>
+	  <Image src="/img/icon/javascript.png" width={100} height={50} alt="javascript"/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/nextjs.png" alt="Next Js"/>
+	  <Image src="/img/icon/nextjs.png" width={100} height={50} alt="Next Js"/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/photoshop.png" alt="Photoshop"/>
+	  <Image src="/img/icon/photoshop.png" width={100} height={50} alt="Photoshop"/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/react.png" alt="React Js"/>
+	  <Image src="/img/icon/react.png" width={100} height={50} alt="React Js"/>
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/scss.png" alt="SCSS"/>
+	  <Image src="/img/icon/scss.png" width={100} height={50} alt="SCSS"/>
 	  
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/shopify.png" alt="Shopify"/>
+	  <Image src="/img/icon/shopify.png" width={100} height={50} alt="Shopify"/>
 	  
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/tailwind.png" alt="Tailwind"/>
+	  <Image src="/img/icon/tailwind.png" width={100} height={50} alt="Tailwind"/>
 	  
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/vue.png" alt="Vue Js"/>
+	  <Image src="/img/icon/vue.png" width={100} height={50} alt="Vue Js"/>
 	  
       </div>
 
 	  <div className='slideritem'>
-	  <Image src="img/icon/wordpress.png" alt="Wordpress"/>
+	  <Image src="/img/icon/wordpress.png" width={100} height={50} alt="Wordpress"/>
       </div>
     </Slider>
 		</div>

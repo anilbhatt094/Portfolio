@@ -1258,5 +1258,6 @@ button {
 }
 
 .logo img {
-  height: 40px;
+height:auto;
+width:auto;
 }/*# sourceMappingURL=header.css.map */
