@@ -2,6 +2,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import "../../public/css/home.css";
+import Image from "next/image";
 function Home() {
 
 	var settings = {
@@ -51,7 +52,7 @@ function Home() {
             <p>I design, code, and build superficial things, and I love what I do.</p>
           </div>
           <div className='bannerImg textCenter'>
-            <img src='img/banner.png'/>
+			<Image src="img/banner.png" alt="AB Coder Banner"/>
           </div>
           
         </div>
@@ -213,47 +214,55 @@ function Home() {
 
 		<div className='liveprojectsec'>
 			<div className='liveProjectbox'>
-				<a href="https://www.myholidays.com/" target='_blank'><img src='https://c.myholidays.com/cms/images/theme/myholiday_logo.svg'/>
+				<a href="https://www.myholidays.com/" target='_blank'>
+					<Image src="https://c.myholidays.com/cms/images/theme/myholiday_logo.svg" alt="My Holidays"/>
 				<p>Company Project <span>Affixious.com</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
-				<a href="https://www.regencyholidays.com/" target='_blank'><img src='https://c.regencyholidays.com/cms/images/theme/regencyholiday_logo.svg'/>
+				<a href="https://www.regencyholidays.com/" target='_blank'>
+				<Image src="https://c.regencyholidays.com/cms/images/theme/regencyholiday_logo.svg" alt="Regency Holidays"/>
 				<p>Company Project <span>Affixious.com</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
-				<a href="https://www.pepfuels.com/" target='_blank'><img src='https://www.pepfuels.com/img/logo.png'/>
+				<a href="https://www.pepfuels.com/" target='_blank'>
+				<Image src="https://www.pepfuels.com/img/logo.png" alt="Pepfuels"/>
 				<p>Company Project <span>Pepfuels.com</span></p>
 				</a>
 			</div>
 			<div className='liveProjectbox'>
-				<a href="https://pannasarees.com/" target='_blank'><img src='https://pannasarees.com/cdn/shop/files/pannagiflogo.gif?v=1643112741&width=300'/>
+				<a href="https://pannasarees.com/" target='_blank'>
+				<Image src="https://pannasarees.com/cdn/shop/files/pannagiflogo.gif?v=1643112741&width=300" alt="Panna Sarees"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 			<div className='liveProjectbox'>
-				<a href="https://mamicha.in/" target='_blank'><img src='https://mamicha.in/cdn/shop/files/green_logo-03_1_1.png?v=1709391495&width=400'/>
-				<p>Company Project <span>MMBO.in</span></p>
-				</a>
-			</div>
-
-			<div className='liveProjectbox'>
-				<a href="https://uboardindia.com/" target='_blank'><img src='https://uboardindia.com/assets/logo/logo.png'/>
+				<a href="https://mamicha.in/" target='_blank'>
+				<Image src="https://mamicha.in/cdn/shop/files/green_logo-03_1_1.png?v=1709391495&width=400" alt="Mamicha"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
-				<a href="https://www.vanson.in/" target='_blank'><img src='https://www.vanson.in/cdn/shop/files/WhatsApp_Image_2024-02-18_at_1.23.17_PM.jpg?v=1708342329'/>
+				<a href="https://uboardindia.com/" target='_blank'>
+				<Image src="https://uboardindia.com/assets/logo/logo.png" alt="Uboard India"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
-				<a href="https://www.hikerstore.in/" target='_blank'><img src='https://www.hikerstore.in/cdn/shop/files/Final2.png?v=1670699142&width=280'/>
+				<a href="https://www.vanson.in/" target='_blank'>
+				<Image src="https://www.vanson.in/cdn/shop/files/WhatsApp_Image_2024-02-18_at_1.23.17_PM.jpg?v=1708342329" alt="Vansons"/>
+				<p>Company Project <span>MMBO.in</span></p>
+				</a>
+			</div>
+
+			<div className='liveProjectbox'>
+				<a href="https://www.hikerstore.in/" target='_blank'>
+				<Image src="https://www.hikerstore.in/cdn/shop/files/Final2.png?v=1670699142&width=280" alt="Hiker Store"/>
 				<p>Company Project <span>MMBO.in</span></p>
 				</a>
 			</div>
@@ -267,67 +276,71 @@ function Home() {
 		<h3 className="primaryheading textCenter mb-15">Skills</h3>
 		<Slider {...settings} className='skillsSlider'>
       <div className='slideritem'>
-     <img src='img/icon/adobexd.png'/>
+	 <Image src="img/icon/adobexd.png" alt="Adobe Xd"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/angular.png'/>
+	  <Image src="img/icon/angular.png" alt="Angular"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/bootstrap.png'/>
+	  <Image src="img/icon/bootstrap.png" alt="Bootstrap"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/canva.png'/>
+	  <Image src="img/icon/canva.png" alt="Canva"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/css.png'/>
+	  <Image src="img/icon/css.png" alt="Css"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/figma.png'/>
+	  <Image src="img/icon/figma.png" alt="Figma"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/html.png'/>
+	  <Image src="img/icon/html.png" alt="HTML"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/javascript.png'/>
+	  <Image src="img/icon/javascript.png" alt="javascript"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/nextjs.png'/>
+	  <Image src="img/icon/nextjs.png" alt="Next Js"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/photoshop.png'/>
+	  <Image src="img/icon/photoshop.png" alt="Photoshop"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/react.png'/>
+	  <Image src="img/icon/react.png" alt="React Js"/>
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/scss.png'/>
+	  <Image src="img/icon/scss.png" alt="SCSS"/>
+	  
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/shopify.png'/>
+	  <Image src="img/icon/shopify.png" alt="Shopify"/>
+	  
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/tailwind.png'/>
+	  <Image src="img/icon/tailwind.png" alt="Tailwind"/>
+	  
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/vue.png'/>
+	  <Image src="img/icon/vue.png" alt="Vue Js"/>
+	  
       </div>
 
 	  <div className='slideritem'>
-     <img src='img/icon/wordpress.png'/>
+	  <Image src="img/icon/wordpress.png" alt="Wordpress"/>
       </div>
     </Slider>
 		</div>

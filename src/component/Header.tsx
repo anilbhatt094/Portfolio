@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import "../../public/css/header.css";
 function Header() {
   return (
@@ -6,7 +7,7 @@ function Header() {
         <div className='container'>
             <div className='HeaderFlex dFlex justifyContentBetween alignItemCenter'>
                 <div className='logo'>
-                    <img src="img/logo.png"/>
+					<Image src="img/logo.png" alt="AB Coder"/>
                 </div>
                 <div className='headerinfo'>
                     <ul>
