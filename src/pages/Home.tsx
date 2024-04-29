@@ -1,6 +1,8 @@
 'use client'
 import React from 'react';
 import Slider from "react-slick";
+import "../../public/css/slick-theme.min.css";
+import "../../public/css/slick.min.css";
 import "../../public/css/home.css";
 import Image from "next/image";
 function Home() {
