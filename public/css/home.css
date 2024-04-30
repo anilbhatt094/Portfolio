@@ -1236,6 +1236,41 @@ button {
     padding-bottom: 30px;
   }
 }
+.btnconnectnow{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: start;
+}
+.downloadCV{background-color: #322724;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  }
+  .whatsapp{
+    background-color: #128c7e;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    }
+    .whatsapp svg{
+      color: #ffffff;
+      fill: #ffffff;
+    }
 .bannerSection .bannerFlex {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1244,6 +1279,9 @@ button {
   align-items: center;
 }
 @media only screen and (max-width: 768px) {
+  .btnconnectnow{
+    justify-content: center;
+  }
   .bannerSection .bannerFlex {
     grid-template-columns: repeat(1, 1fr);
   }
