@@ -18,7 +18,7 @@ function Footer() {
           </ul>
         </div>
         <div className='copyright'>© {year} AB Coder. ALL RIGHTS RESERVED</div>
-        <div className='designby'>Develop By <a href='#'>AB Coder</a></div>
+        <div className='designby'>Develop By AB Coder</div>
       </div>
     </div>
   </footer>

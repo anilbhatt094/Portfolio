@@ -225,62 +225,33 @@ function Home() {
 
 	<section className='liveProject py50'>
 		<div className='container'>
-		<h3 className="primaryheading textCenter mb-15">Live Project</h3>
+		<h3 className="primaryheading textCenter mb-15">Company Experience</h3>
 
 		<div className='liveprojectsec'>
 			<div className='liveProjectbox'>
 				<a href="https://www.myholidays.com/" target='_blank'>
-					<Image src="https://c.myholidays.com/cms/images/theme/myholiday_logo.svg" width={100} height={50} alt="My Holidays"/>
-				<p>Company Project <span>Affixious.com</span></p>
+					<Image src="/img/project/affixious.webp" width={100} height={50} alt="Affixious"/>
+				<h6>MyHolidays | Regency Holidays</h6>
+				<p>(2022 to Current)</p>
+				</a>
+			</div>
+			
+			<div className='liveProjectbox'>
+				<a href="https://mmbo.in/" target='_blank'>
+				<Image src="/img/project/mmbo.webp" width={100} height={50} alt="Make My Business Online"/>
+				<h6>MMBO</h6>
+				<p>(2021 to 2022)</p>
 				</a>
 			</div>
 
 			<div className='liveProjectbox'>
-				<a href="https://www.regencyholidays.com/" target='_blank'>
-				<Image src="https://c.regencyholidays.com/cms/images/theme/regencyholiday_logo.svg" width={100} height={50} alt="Regency Holidays"/> 
-				<p>Company Project <span>Affixious.com</span></p>
+				<a href="https://pepfules.com/" target='_blank'>
+				<Image src="/img/project/pepfuels.png" width={100} height={50} alt="Pepfuels"/>
+				<h6>TruxApp | Pepfuels</h6>
+				<p>(2019 to 2021)</p>
 				</a>
 			</div>
-
-			<div className='liveProjectbox'>
-				<a href="https://www.pepfuels.com/" target='_blank'>
-				<Image src="/img/project/logo.png" width={100} height={50} alt="Pepfuels"/>
-				<p>Company Project <span>Pepfuels.com</span></p>
-				</a>
-			</div>
-			<div className='liveProjectbox'>
-				<a href="https://pannasarees.com/" target='_blank'>
-				<Image src="/img/project/pannagiflogo.webp" width={100} height={50} alt="Panna Sarees"/>
-				<p>Company Project <span>MMBO.in</span></p>
-				</a>
-			</div>
-			<div className='liveProjectbox'>
-				<a href="https://mamicha.in/" target='_blank'>
-				<Image src="/img/project/mamicha.avif" width={100} height={50} alt="Mamicha"/>
-				<p>Company Project <span>MMBO.in</span></p>
-				</a>
-			</div>
-
-			<div className='liveProjectbox'>
-				<a href="https://uboardindia.com/" target='_blank'>
-				<Image src="/img/project/uboard.png" width={100} height={50} alt="Uboard India"/>
-				<p>Company Project <span>MMBO.in</span></p>
-				</a>
-			</div>
-
-			<div className='liveProjectbox'>
-				<a href="https://www.vanson.in/" target='_blank'>
-				<Image src="/img/project/vansons.webp" width={100} height={50} alt="Vansons"/>
-				<p>Company Project <span>MMBO.in</span></p>
-				</a>
-			</div>
-
-			<div className='liveProjectbox'>
-				<a href="https://www.hikerstore.in/" target='_blank'>
-				<Image src="/img/project/hikerstore.avif" width={100} height={50} alt="Hiker Store"/>
-				<p>Company Project <span>MMBO.in</span></p>
-				</a>
-			</div>
+			
 		</div>
 		
 		</div>
@@ -358,6 +329,87 @@ function Home() {
 	  <Image src="/img/icon/wordpress.png" width={100} height={50} alt="Wordpress"/>
       </div>
     </Slider>
+		</div>
+	</section>
+
+	<section className='liveProject py50'>
+		<div className='container'>
+		<h3 className="primaryheading textCenter mb-15">Live Project</h3>
+
+		<div className='liveprojectsec'>
+			<div className='liveProjectbox'>
+				<a href="https://www.myholidays.com" target='_blank'>
+					<Image src="https://c.myholidays.com/cms/images/theme/myholiday_logo.svg" width={100} height={50} alt="My Holidays"/>
+				<p>Company Project <span>Affixious</span></p>
+				</a>
+			</div>
+
+			<div className='liveProjectbox'>
+				<a href="https://www.regencyholidays.com/" target='_blank'>
+				<Image src="https://c.regencyholidays.com/cms/images/theme/regencyholiday_logo.svg" width={100} height={50} alt="Regency Holidays"/> 
+				<p>Company Project <span>Affixious</span></p>
+				</a>
+			</div>
+
+			<div className='liveProjectbox'>
+				<a href="https://www.pepfuels.com/" target='_blank'>
+				<Image src="/img/project/logo.png" width={100} height={50} alt="Pepfuels"/>
+				<p>Company Project <span>Pepfuels</span></p>
+				</a>
+			</div>
+			<div className='liveProjectbox'>
+				<a href="https://pannasarees.com/" target='_blank'>
+				<Image src="/img/project/pannagiflogo.webp" width={100} height={50} alt="Panna Sarees"/>
+				<p>Company Project <span>MMBO</span></p>
+				</a>
+			</div>
+			<div className='liveProjectbox'>
+				<a href="https://mamicha.in/" target='_blank'>
+				<Image src="/img/project/mamicha.avif" width={100} height={50} alt="Mamicha"/>
+				<p>Company Project <span>MMBO</span></p>
+				</a>
+			</div>
+
+			<div className='liveProjectbox'>
+				<a href="https://uboardindia.com/" target='_blank'>
+				<Image src="/img/project/uboard.png" width={100} height={50} alt="Uboard India"/>
+				<p>Company Project <span>MMBO</span></p>
+				</a>
+			</div>
+
+			<div className='liveProjectbox'>
+				<a href="https://www.vanson.in/" target='_blank'>
+				<Image src="/img/project/vansons.webp" width={100} height={50} alt="Vansons"/>
+				<p>Company Project <span>MMBO</span></p>
+				</a>
+			</div>
+
+			<div className='liveProjectbox'>
+				<a href="https://www.hikerstore.in/" target='_blank'>
+				<Image src="/img/project/hikerstore.avif" width={100} height={50} alt="Hiker Store"/>
+				<p>Company Project <span>MMBO</span></p>
+				</a>
+			</div>
+		</div>
+		
+		</div>
+	</section>
+
+	<section className='openToWork bg-default-color py50'>
+		<div className='container'>
+			<div className="openToWorkGrid">
+				<div className="OpentoWorkBox">
+					<a href="https://wa.me/9968424239" target='_blank'>Part Time</a>
+				</div>
+
+				<div className="OpentoWorkBox">
+					<a href="https://wa.me/9968424239" target='_blank'>Full Time</a>
+				</div>
+
+				<div className="OpentoWorkBox">
+					<a href="https://wa.me/9968424239" target='_blank'>Freelancing Work</a>
+				</div>
+			</div>
 		</div>
 	</section>
 
