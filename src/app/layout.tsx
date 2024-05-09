@@ -18,9 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="_hDsvS-x5GhYN8aT8uI8Uh_3MsDFVszbpMK76ugNYJI"></meta>
       <body className={inter.className}>{children}
       <Analytics/>
 <SpeedInsights/>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNH47JPV"
+height="0" width="0"></iframe></noscript>
       </body>
     </html>
   );

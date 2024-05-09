@@ -44,8 +44,7 @@ function Home() {
 
   return (
     <>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNH47JPV"
-height="0" width="0"></iframe></noscript>
+
 
 	
     <section className='bannerSection py50'>
