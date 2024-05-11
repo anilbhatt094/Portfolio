@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-     
+     <title>Hi 🖐 I am Anil Bhatt | Frontend Developer</title>
       <body className={inter.className}>
       <Script
           async
