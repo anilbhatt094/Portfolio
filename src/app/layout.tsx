@@ -7,15 +7,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  robots: { index: false, follow: false },
-  title: 'Title',
-  description:
-    'your description',
-  verification: {
-    google: '_hDsvS-x5GhYN8aT8uI8Uh_3MsDFVszbpMK76ugNYJI',
-  },
-};
 
 export default function RootLayout({
   children,
@@ -26,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
      
       <body className={inter.className}>
-     
+      <meta name="google-site-verification" content="oeEXoOctvy8qWUekXG1tiTitkCbGPthTRmdIfiLEdtg" />
         {children}
       <Analytics/>
 <SpeedInsights/>
