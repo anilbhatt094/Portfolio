@@ -44,7 +44,11 @@ function Home() {
 
   return (
     <>
+	<head>
+	<meta name="google-site-verification" content="_hDsvS-x5GhYN8aT8uI8Uh_3MsDFVszbpMK76ugNYJI" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M7VQ16VBF3"></script>
 
+	</head>
 
 	
     <section className='bannerSection py50'>
