@@ -5,6 +5,7 @@ import "../../public/css/slick-theme.min.css";
 import "../../public/css/slick.min.css";
 import "../../public/css/home.css";
 import Image from "next/image";
+import Script from 'next/script';
 function Home() {
 
 	var settings = {
