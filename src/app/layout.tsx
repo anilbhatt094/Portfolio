@@ -16,7 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
      <title>Hi 🖐 I am Anil Bhatt | Frontend Developer</title>
+     
       <body className={inter.className}>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNH47JPV"
+height="0" width="0"></iframe></noscript>
+
       <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M7VQ16VBF3"
